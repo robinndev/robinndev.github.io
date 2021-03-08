@@ -1,39 +1,83 @@
 body {background-color:ghostwhite; font-size: 16px;}
 
+.FIXED {position: fixed; left: 185px; top: -10px;
+width:100%;
+
+background-color: #11a36a;color: white;
+
+}
+
 h2 {font-size: 20px; height: 45px; font-family: Arial;color: #11a36a; padding: 10px 15px; width: 10px; margin: 20px;}
 
-p {font-family: Arial, Helvetica, sans-serif; text-align:left;} 
+p {font-family: Arial, Helvetica, sans-serif; text-align:left;
+position: absolute; 
+left: 300px;
+top:;
+}
 
-#Habilidades {font-family:Arial, Helvetica, sans-serif; line-height: 24px;} 
+.OLA {top: 100px}
 
-h4 {font-family: Arial, Helvetica, sans-serif; font-size: 18px;}
+#NOME {position: absolute; top: 250px }
+
+#Habilidades {font-family:Arial, Helvetica, sans-serif; line-height: 24px;
+position: absolute; 
+left: -2px; 
+top: 300px ;
+z-index: 3;}
+
+h4 {font-family: Arial, Helvetica, sans-serif; font-size: 18px; 
+position: absolute; z-index: 4; top: 250px;
+left: 18px;}
+
+#SUMARIO {position: absolute; z-index: 2; left: 300px;
+top: 350px;}
+
 
 .buttom1 {color: white;
     background-color: #11a36a;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 3px;
     font-weight: 600;
-    text-decoration: none}
+    text-decoration: none;
+    position: absolute; 
+    width: 90px; 
+    top: 280px;
+}
     
     .buttom2 {color: white;
-        background-color: #11a36a;
+        background-color: rgb(12, 180, 62);
         padding: 10px 20px;
         border-radius: 3px;
         font-weight: 600;
         text-decoration: none;
-        line-height: 40px;
+        line-height: 35px; 
+        position: fixed;
+        top: 15px; right: 20px;
+       
+        
         }
 
     .buttom3 {color: white;
         background-color: #11a36a;
-        padding: 10px 20px;
+        padding: 10px 10px;
         border-radius: 3px;
         font-weight: 600;
         text-decoration: none;
+        position: absolute;;
+        top: 320px;
+        width: 150px;
         }
 
-        .picture {border-radius: 50%; line-height: 50px;}
+        .picture {border-radius: 50%; line-height: 50px;
+        position: absolute; z-index: 2; left: 30px;}
 
         .buttom4 {background-color: #11a36a; color: white; text-decoration: none;
         border-radius: 2px; font-size: 15px; padding: 2px;
         }
+
+       div { background-color: #11a36a ;width: 200px; 
+        height: 1000px; position: absolute; top: 10px;
+        z-index: 1; 
+         }
+
+         
